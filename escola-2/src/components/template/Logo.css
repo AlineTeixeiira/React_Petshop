@@ -1,0 +1,7 @@
+aside.logo {
+    background-color: var(--bg-menu);
+    background-color: #650d0ddf;
+    }
+    aside.logo img {
+    width: 70%;
+    }

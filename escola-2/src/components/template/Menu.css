@@ -1,0 +1,17 @@
+nav.menu {
+    background-color: var(--bg-menu);
+    text-align: right;
+    background-color: #650d0ddf;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.menu a:hover {
+    color: #0cf72b;
+}

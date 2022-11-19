@@ -1,0 +1,9 @@
+.inclui-container{ 
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background: rgba(255, 250, 250, 0.702);
+}
+
+.input{
+    width: 200px;
+}

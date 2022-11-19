@@ -1,0 +1,83 @@
+.formLogin {
+    margin: auto;
+    width: 400px;
+    border-radius: 5px;
+    background: rgba(93, 16, 16, 0.689);
+    padding: 25px;
+    display: block;
+    box-shadow: 0px 0px 40px -12px #15ff04d8;
+}
+.content{
+
+}   
+
+.tituloAuth {
+    text-align: center;
+    color: aliceblue;
+}
+
+.lblLogin {
+    color: aliceblue;
+}
+
+.inputAuth {
+    width: 85%;
+    padding: 16px;
+    margin: 15px 0;
+}
+
+button[type=submit] {
+    background-color: rgb(255, 253, 253);
+    
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 180px;
+    
+}
+
+.msgErro {
+    color: red;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+    --bg-menu: #bdbbbb;
+    --logo-width: 150px;
+    --content-header-height: 90px;
+    --content-footer-height: 10px;
+    }
+  
+  body {
+    box-sizing: border-box;
+      font-family: "Pacifico", sans-serif;
+  }
+  
+  /* Lay-out */
+  .App {
+    background-image: url(https://s.zst.com.br/cms-assets/2020/12/presente-de-natal-para-cachorro-e-gato-2-.png);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: var(--logo-width) 1fr;
+    grid-template-rows:
+    var(--content-header-height) 1fr var(--content-footer-height);
+    grid-template-areas:
+    "logo menu"
+    "content content"
+    "footer footer";
+    height: 100vh;
+  }
+  
+  aside.logo{
+    grid-area: logo;
+  }
+  
+  nav.menu {
+    grid-area: menu;
+  }
+  
+  div.content {
+    grid-area: content;
+  }
